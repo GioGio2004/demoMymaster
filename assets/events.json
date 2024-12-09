@@ -1,0 +1,46 @@
+[
+    {
+      "id": 1,
+      "title": "Water",
+      "icon":"",
+      "description": "Reliable and efficient water supply solutions for residential and commercial needs.",
+      "image_url": "https://images.unsplash.com/photo-1601997123254-a9f1ad6a756b?q=80&w=1778&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 2,
+      "title": "Wood",
+      "icon":"",
+      "description": "Custom carpentry and woodworking services for furniture, cabinets, and decor.",
+      "image_url": "https://plus.unsplash.com/premium_photo-1694558413478-3bf4cccd615a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d29vZCUyMHdvcmtpbmd8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": 3,
+      "title": "Welding",
+      "icon":"",
+      "description": "High-quality welding for structural repairs, fabrication, and more.",
+      "image_url": "https://images.unsplash.com/photo-1618323218885-7a2edf3a96c2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2VsZGluZ3xlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "id": 4,
+      "title": "Cleaning",
+      "icon":"",
+      "description": "Professional cleaning services for homes, offices, and industrial spaces.",
+      "image_url": "https://plus.unsplash.com/premium_photo-1663011218145-c1d0c3ba3542?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2xlYW5pbmd8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": 5,
+      "title": "Plumbing",
+      "icon":"",
+      "description": "Quick and efficient plumbing solutions for all types of installations and repairs.",
+      "image_url": "https://images.unsplash.com/photo-1542013936693-884638332954?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UGx1bWJpbmd8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": 6,
+      "title": "Electrical",
+      "icon":"",
+      "description": "Safe and reliable electrical installations, maintenance, and repairs.",
+      "image_url": "https://plus.unsplash.com/premium_photo-1682086494682-caa45f271bb8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8RWxlY3RyaWNhbHxlbnwwfHwwfHx8MA%3D%3D"
+    }
+    
+  ]
+  

@@ -1,19 +1,22 @@
 import { Link, Tabs } from 'expo-router';
+import AntDesign from '@expo/vector-icons/AntDesign';
 
 import { HeaderButton } from '../../components/HeaderButton';
 import { TabBarIcon } from '../../components/TabBarIcon';
+import MaterialIcons from '@expo/vector-icons/MaterialIcons';
+
 
 export default function TabLayout() {
   return (
     <Tabs
       screenOptions={{
-        tabBarActiveTintColor: 'black',
+        tabBarActiveTintColor: 'red',
       }}>
       <Tabs.Screen
         name="index"
         options={{
-          title: 'Tab One',
-          tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
+          title: 'Services',
+          tabBarIcon: ({ color }) => <MaterialIcons name="home-repair-service" size={24} color={color} />,
           headerRight: () => (
             <Link href="/modal" asChild>
               <HeaderButton />
@@ -22,12 +25,25 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="two"
+        name="support"
         options={{
-          title: 'Tab Two',
-          tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
+          title: 'Support',
+          tabBarIcon: ({ color }) => <MaterialIcons name="contact-support" size={24} color={color} />,
+          headerRight: () => (
+            <Link href="/modal" asChild>
+              <HeaderButton />
+            </Link>
+          ),
         }}
       />
+      <Tabs.Screen
+        name="orders"
+        options={{
+          title: 'orders',
+          tabBarIcon: ({ color }) => <AntDesign name="shoppingcart" size={24} color={color}/>,
+        }}
+      />
+
     </Tabs>
   );
 }
