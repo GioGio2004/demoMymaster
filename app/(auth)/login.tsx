@@ -1,6 +1,6 @@
 import { Stack } from 'expo-router';
 import React, { useState } from 'react';
-import { Alert, StyleSheet, View, AppState, TextInput, Button } from 'react-native';
+import { Alert, StyleSheet, View, AppState, TextInput, Button, Text } from 'react-native';
 import { supabase } from '~/utils/supabase';
 
 // Tells Supabase Auth to continuously refresh the session automatically if
@@ -47,7 +47,7 @@ export default function Auth() {
   }
 
   return (
-    <View className="flex-1 gap-5  bg-white p-5">
+    <View className="flex-1 bg-white p-5">
       <Stack.Screen options={{ title: 'sign in' }} />
       <View className="gap-6 pt-12">
         <TextInput
@@ -66,8 +66,19 @@ export default function Auth() {
           className="rounded-md border border-gray-200 p-4"
         />
       </View>
-      <Button title="Sign in" disabled={loading} onPress={() => signInWithEmail()} />
-      <Button title="Sign up" disabled={loading} onPress={() => signUpWithEmail()} />
+      <View className="justify-center">
+        <View className=" justify-center gap-5 pt-10">
+          <Button title="Sign in" disabled={loading} onPress={() => signInWithEmail()} />
+          <Button title="Sign up" disabled={loading} onPress={() => signUpWithEmail()} />
+        </View>
+      </View>
+      {/* Footer text at the bottom */}
+      <View className="flex-1 justify-end pb-5 mb-5">
+        {/* make this text linkes to  display content */}
+        <Text className="text-md font-thin text-center">
+          Privacy & Policy | Learn More
+        </Text>
+      </View>
     </View>
   );
 }
